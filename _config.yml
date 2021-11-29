@@ -29,7 +29,7 @@ twitter_username: @KitaVoronok
 github_username:  voronokKita
 
 # Build settings
-theme: minima
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
