@@ -1,0 +1,36 @@
+id                    css
+
+#main_body            main
+#index_main           main
+#default_hat          hat
+#default_footer       footer
+#contacts             footer
+#impressions          footer
+#powered_by           footer
+#index_header         header
+#index_photos         header
+#focus_figure         header
+#focus_picture        header
+#focus_gearwheels     header
+#focus_text           header
+#focus_current        header
+#focus_h              header
+#focus_figcaption     header
+#focus_interests      header
+#speed                table
+#strongest            table
+
+.h_leader             main
+.answer               main
+.octojekyll           footer
+.focus_specials       header
+.stats_block          table
+.stats_bar            table
+.stats_h              table
+.stats_section        table
+.stats_thead          table
+.stats_tbody          table
+.stats_tr             table
+.lvl                  table
+.lvl_txt              table
+.lvl_attribute        table

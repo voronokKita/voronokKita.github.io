@@ -1,0 +1,81 @@
+- name: attributes
+  category:
+    - items:
+        - name: Strength
+          level: 1
+        - name: Agility
+          level: -2
+        - name: Endurance
+          level: 4
+        - name: Speed
+          level: 0
+        - name: Willpower
+          level: 10
+        - name: Intelligence
+          level: ⑨
+        - name: Personality
+          level: INFP
+        - name: Luck
+          level: 8
+
+- name: programming
+  category:
+    - name: Major Tools
+      items:
+        - name: Python
+          level: 3
+        - name: C
+          level: 2
+        - name: C++
+          level: 1
+        - name: C#
+          level: 1
+        - name: PHP
+          level: 1
+        - name: HTML/CSS
+          level: 3
+        - name: JavaScript
+          level: 1
+        - name: SQLite
+          level: 3
+
+    - name: Complex Tools
+      items:
+        - name: Linux
+          level: 3
+        - name: Git
+          level: 2
+        - name: OOP
+          level: 2
+        - name: API
+          level: 2
+        - name: Flask
+          level: 2
+        - name: Django
+          level: 1
+
+    - name: Minor Tools
+      items:
+        - name: Blind Typing
+        - name: Jinja
+        - name: YAML
+        - name: JSON
+
+- name: other stats
+  category:
+    - name: Soft Skills
+      items:
+        - name: Self Learning
+          level: 4
+        - name: Digital Literacy
+          level: 4
+        - name: Communication
+          level: 1
+        - name: Public Speaking
+          level: 1
+
+    - name: Permanent Effects
+      items:
+        - name: ADHD
+        - name: Socially Traumatized
+        - name: Optimism

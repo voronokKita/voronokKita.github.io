@@ -1,0 +1,49 @@
+{% assign weekday = site.time | date: "%u" | plus: 0 %}
+{% assign day = site.time | date: "%-d" | plus: 0 %}
+{% assign month = site.time | date: "%-m" | plus: 0 %}
+<!-- [weekday], [day] of [month] -->
+<section id='default_hat'>
+  {% if weekday == 1 %}
+    Morndas,
+  {% elsif weekday == 2 %}
+    Tirdas,
+  {% elsif weekday == 3 %}
+    Middas,
+  {% elsif weekday == 4 %}
+    Turdas,
+  {% elsif weekday == 5 %}
+    Fredas,
+  {% elsif weekday == 6 %}
+    Loredas,
+  {% elsif weekday == 7 %}
+    Sundas,
+  {% endif %}
+
+  {{ day }} of
+
+  {% if month == 1 %}
+    Morning Star
+  {% elsif month == 2 %}
+    Sun’s Dawn
+  {% elsif month == 3 %}
+    First Seed
+  {% elsif month == 4 %}
+    Rain’s Hand
+  {% elsif month == 5 %}
+    Second Seed
+  {% elsif month == 6 %}
+    Mid Year
+  {% elsif month == 7 %}
+    Sun’s Height
+  {% elsif month == 8 %}
+    Last Seed
+  {% elsif month == 9 %}
+    Hearthfire
+  {% elsif month == 10 %}
+    Frostfall
+  {% elsif month == 11 %}
+    Sun’s Dusk
+  {% elsif month == 12 %}
+    Evening Star
+  {% endif %}
+</section>

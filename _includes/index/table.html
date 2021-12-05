@@ -1,0 +1,49 @@
+<table>
+  {% for category in block.category %}
+    <thead class='stats_thead'>
+      <tr>
+        <th class='h_leader'>{{ category.name }}</th>
+      </tr>
+    </thead>
+
+    <tbody class='stats_tbody'>
+      {% for item in category.items %}
+        <tr class='stats_tr'>
+          <td>
+            {{ item.name }}&nbsp
+          </td>
+
+          <td>
+            {% if block.name == 'attributes' and item.name == 'Speed' %}
+              <img id='speed' src="/assets/images/slowpoke.png" alt="slowpoke">
+
+            {% elsif block.name == 'attributes' and item.name == 'Intelligence' %}
+              <span class='lvl_attribute' id='strongest'>{{ item.level }}</span>
+
+            {% elsif block.name == 'attributes' and item.name == 'Personality' %}
+              <span class='lvl_txt'>{{ item.level }}</span>
+
+            {% elsif block.name == 'attributes' %}
+              <span class='lvl_attribute'>{{ item.level }}</span>
+
+            {% elsif item.level == 1 %}
+              <span class='lvl'>(1/4)</span>
+              <span class='lvl_txt'>familiar</span>
+            {% elsif item.level == 2 %}
+              <span class='lvl'>(2/4)</span>
+              <span class='lvl_txt'>able</span>
+            {% elsif item.level == 3 %}
+              <span class='lvl'>(3/4)</span>
+              <span class='lvl_txt'>confident</span>
+            {% elsif item.level == 4 %}
+              <span class='lvl'>(4/4)</span>
+              <span class='lvl_txt'>skilled</span>
+            {% endif %}
+          </td>
+
+        </tr>
+      {% endfor %}
+    </tbody>
+
+  {% endfor %}
+</table>

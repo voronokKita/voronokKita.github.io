@@ -1,0 +1,85 @@
+@import "variables";
+
+#index_header {display: flex; flex-flow: row wrap;}
+
+#index_photos {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+
+  font-size: 0;
+  margin-right: 4px;
+  margin-bottom: 10px;
+
+  img[alt*="photo 1"] {
+    width: $picture_width;
+    border: 3px solid $photo_1;
+    border-style: ridge none ridge ridge;
+  }  
+  img[alt*="photo 2"] {
+    width: $picture_width;
+    border: 3px solid $photo_2;
+    border-style: ridge ridge ridge none;    
+  }
+  @media (max-width: $second_picture_disappear) {img[alt*="photo 1"] {border-style: ridge;}}  
+  @media (max-width: $second_picture_disappear) {img[alt*="photo 2"] {display: none;}}   
+}
+
+#focus_figure {
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 0;
+  margin-bottom: 10px;
+
+  #focus_picture {
+    display: flex;    
+    flex-flow: row nowrap;
+
+    max-width: $pictures_width;
+    padding: 1px;
+    border: 3px solid $color_normal;    
+  
+    #focus_gearwheels {
+      display: flex;
+      flex: 0 0 auto;
+      justify-content: center;
+      align-items: center;
+      
+      margin: 2px;
+      padding: 2px;
+      border: 3px solid $color_answer;
+
+      img[alt*="gearwheels"] {width: 60px; min-height: auto;}
+    }
+    #focus_text {
+      flex: 2 1 0;
+
+      margin: 2px;
+      padding: 4px 4px 4px 10px;    
+      
+      border: 3px solid $color_header;  
+      background-color: $color_normal;
+      background-image: url("/assets/images/focus.jpg");
+      background-repeat: no-repeat;              
+      
+      h1#focus_current, h2#focus_h {color: $color_big_answer_pressed; font-size: x-large;}
+      h1#focus_current {white-space: nowrap;}
+      h2#focus_h {text-align: center;}
+    }    
+  }
+  #focus_figcaption {
+    flex-flow: column nowrap;
+
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    h3#focus_interests, h4.focus_specials {
+      padding: 2px 0 6px 0;
+      border: 2px solid $color_normal;
+      border-style: none none groove none;
+    }
+    a {color: $color_normal;}
+    a:hover, a:focus {color: fuchsia}
+    a:active {color: violet} 
+  }
+}

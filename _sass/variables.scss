@@ -1,0 +1,43 @@
+$background_html: rgb(28, 12, 71);
+$background_main: rgba(0, 0, 0, 0.700);
+
+$photo_1: darkgray;
+$photo_2: teal;
+
+$color_normal: rgb(202,165,96);
+$color_header: rgb(223,201,159);
+$color_normal_pressed: rgb(243,237,221);
+$color_disabled: rgb(179,168,135);
+
+$color_link: rgb(112,126,207);
+$color_link_over: rgb(143,155,218);
+$color_link_pressed: rgb(175,184,228);
+
+$color_journal_link: rgb(37,49,112);
+$color_journal_link_over: rgb(58,77,175);
+$color_journal_link_pressed: rgb(112,126,207);
+
+$color_answer: rgb(150,50,30);
+$color_health: rgb(200,60,30);
+$color_big_answer_pressed: rgb(243,237,22);
+
+$color_focus: rgb(80,80,80);
+$color_magic: rgb(53,69,159);
+$color_fatigue: rgb(0,150,60);
+$color_misc: rgb(0,205,205);
+
+$body_max_width: 820px;
+$body_min_width: 360px;
+
+$picture_width: 200px;
+$pictures_width: $picture_width + $picture_width;
+$second_picture_disappear: 433px;
+
+$flex_table: 220px;
+
+@font-face {
+  font-family: "Pelagiad";  // https://www.nexusmods.com/morrowind/mods/46854
+  src:  url("/assets/fonts/pelagiad-webfont.woff2") format('woff2'),
+        url("/assets/fonts/pelagiad-webfont.woff") format('woff'),
+        url("/assets/fonts/pelagiad.ttf") format('truetype');
+}

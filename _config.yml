@@ -20,18 +20,23 @@
 
 title: Kita's Homepage
 email: kitavoronok@gmail.com
+github_username: voronokKita
+  
 description: >- # this means to ignore newlines until "baseurl:"
   My personal page in the Internet.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: voronokkita.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://voronokkita.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @KitaVoronok
-github_username:  voronokKita
+
+timezone: Europe/Moscow
 
 # Build settings
-theme: minima
+markdown: GFM
+ignore_theme_config: true
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
