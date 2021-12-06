@@ -21,26 +21,26 @@
               <span class='lvl_attribute' id='strongest'>{{ item.level }}</span>
 
             {% elsif block.name == 'attributes' and item.name == 'Personality' %}
-              <span class='lvl_txt'>{{ item.level }}</span>
+              <small class='lvl_txt'>{{ item.level }}</small>
 
             {% elsif block.name == 'attributes' %}
-              <span class='lvl_attribute'>{{ item.level }}</span>
+              <small class='lvl_attribute'>{{ item.level }}</small>
 
             {% elsif item.level == 1 %}
-              <span class='lvl'>(1/4)</span>
-              <span class='lvl_txt'>familiar</span>
+              <small class='lvl'>(1/4)</small>
+              <small class='lvl_txt'>familiar</small>
               
             {% elsif item.level == 2 %}
-              <span class='lvl'>(2/4)</span>
-              <span class='lvl_txt'>able</span>
+              <small class='lvl'>(2/4)</small>
+              <small class='lvl_txt'>able</small>
               
             {% elsif item.level == 3 %}
-              <span class='lvl'>(3/4)</span>
-              <span class='lvl_txt'>confident</span>
+              <small class='lvl'>(3/4)</small>
+              <small class='lvl_txt'>confident</small>
               
             {% elsif item.level == 4 %}
-              <span class='lvl'>(4/4)</span>
-              <span class='lvl_txt'>skilled</span>
+              <small class='lvl'>(4/4)</small>
+              <small class='lvl_txt'>skilled</small>
               
             {% endif %}
           </td>

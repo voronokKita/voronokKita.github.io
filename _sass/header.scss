@@ -28,13 +28,13 @@
   @media (max-width: $second_picture_disappear) {img[alt*="photo 2"] {display: none;}}   
 }
 
-#focus_figure {
+#focus_block {
   flex-grow: 1;
   flex-shrink: 2;
   flex-basis: 0;
   margin-bottom: 10px;
 
-  #focus_picture {
+  #focus_rectangle {
     display: flex;    
     flex-flow: row nowrap;
 
@@ -55,6 +55,8 @@
       img[alt*="gearwheels"] {width: $gearwheels_width; height: $gearwheels_height;}
     }
     #focus_text {
+      display: flex;
+      flex-flow: column;
       flex: 2 1 0;
 
       margin: 2px;
@@ -63,20 +65,21 @@
       border: 3px solid $color_header;  
       background-color: $color_normal;
       background-image: url("/assets/images/focus.jpg");
-      background-repeat: no-repeat;              
+      background-size: cover;
+      background-repeat: round;
       
-      h1#focus_current, h2#focus_h {color: $color_big_answer_pressed; font-size: x-large;}
-      h1#focus_current {white-space: nowrap;}
-      h2#focus_h {text-align: center;}
-    }    
+      #focus_current, #focus_h {color: $color_big_answer_pressed; font-size: x-large;}
+      #focus_current {white-space: nowrap;}
+      #focus_h {display: flex; justify-content: center;}
+    }
   }
-  #focus_figcaption {
+  #focus_legend {
     flex-flow: column nowrap;
 
     margin-left: 8px;
     margin-right: 8px;
     
-    h3#focus_interests, h4.focus_specials {
+    #focus_interests, .focus_specials {
       padding: 2px 0 6px 0;
       border: 2px solid $color_normal;
       border-style: none none groove none;

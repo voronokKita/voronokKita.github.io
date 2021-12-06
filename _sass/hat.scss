@@ -3,12 +3,14 @@
   flex: 0 1 auto;
   justify-content: right;
   align-items: flex-end;
-  
-  padding: 1px 8px;
-  color: $color_disabled;
-  font-size: medium;
 
   border: 3px solid $color_header;
   border-bottom: 1px solid $color_header;
   border-style: none ridge solid ridge;
+  
+  #tes_time {
+    padding: 1px 8px;
+    color: $color_disabled;
+    font-size: medium;
+  }
 }
