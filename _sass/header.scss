@@ -11,8 +11,11 @@
   margin-right: 4px;
   margin-bottom: 10px;
 
-  img[alt*="photo 1"] {
+  img[alt*="photo 1"], img[alt*="photo 2"] {
     width: $picture_width;
+    height: $picture_height;
+  }
+  img[alt*="photo 1"] {    
     border: 3px solid $photo_1;
     border-style: ridge none ridge ridge;
   }  
@@ -49,7 +52,7 @@
       padding: 2px;
       border: 3px solid $color_answer;
 
-      img[alt*="gearwheels"] {width: 60px; min-height: auto;}
+      img[alt*="gearwheels"] {width: $gearwheels_width; height: $gearwheels_height;}
     }
     #focus_text {
       flex: 2 1 0;
