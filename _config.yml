@@ -23,9 +23,11 @@ email: kitavoronok@gmail.com
 github_username: voronokKita
   
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal page in the Internet.
+  Kita Voronok personal page in the Internet.
 baseurl: "" # the subpath of your site, e.g. /blog
+
 domain: voronokkita.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+
 url: https://voronokkita.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 timezone: Europe/Moscow
@@ -33,6 +35,7 @@ timezone: Europe/Moscow
 # Build settings
 markdown: GFM
 ignore_theme_config: true
+encoding: utf-8
 plugins:
   - jekyll-feed
   - jekyll-sitemap
