@@ -17,17 +17,11 @@
   background-repeat: no-repeat;
   background-origin: border-box;
   background-clip: border-box;
-
-  #error_block {
-    flex-basis: auto;
-    margin-top: 9em;
-
-    figcaption.stats_section {background-color: black;}
-
-    #error_404 {
-      color: $color_health;
-      font-size: xxx-large;
-      text-align: center;
-    }
-  }
+}
+#error_block {flex-basis: auto; margin-top: 9em;}
+figcaption.stats_section {background-color: black;}
+#error_404 {
+  color: $color_health;
+  font-size: 40px;
+  text-align: center;
 }

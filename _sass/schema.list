@@ -1,6 +1,6 @@
 id                    css
 
-#main_body            main
+#index_content        main
 #index_main           main
 #default_hat          hat
 #tes_time             hat
@@ -17,7 +17,7 @@ id                    css
 #focus_current        header
 #focus_h              header
 #focus_legend         header
-#focus_interests      header
+#anime                header
 #speed                table
 #strongest            table
 #error_body           error404
@@ -28,7 +28,7 @@ id                    css
 .h_leader             main
 .answer               main
 .octojekyll           footer
-.focus_specials       header
+.focus_interests      header
 .stats_block          table
 .stats_bar            table
 .stats_h              table

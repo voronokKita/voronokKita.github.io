@@ -24,6 +24,10 @@
       items:
         - name: Python
           level: 3
+        - name: HTML/CSS
+          level: 3
+        - name: SQLite
+          level: 3
         - name: C
           level: 2
         - name: C++
@@ -32,12 +36,8 @@
           level: 1
         - name: PHP
           level: 1
-        - name: HTML/CSS
-          level: 3
         - name: JavaScript
           level: 1
-        - name: SQLite
-          level: 3
 
     - name: Complex Tools
       items:
@@ -46,6 +46,8 @@
         - name: Git
           level: 2
         - name: OOP
+          level: 2
+        - name: Computer networks
           level: 2
         - name: API
           level: 2
@@ -57,9 +59,9 @@
     - name: Minor Tools
       items:
         - name: Blind Typing
-        - name: Jinja
-        - name: YAML
         - name: JSON
+        - name: YAML
+        - name: Jinja
 
 - name: other stats
   category:

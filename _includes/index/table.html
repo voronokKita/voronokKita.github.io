@@ -8,6 +8,7 @@
 
     <tbody class='stats_tbody'>
       {% for item in category.items %}
+
         <tr class='stats_tr'>
           <td>
             {{ item.name }}&nbsp
@@ -29,23 +30,23 @@
             {% elsif item.level == 1 %}
               <small class='lvl'>(1/4)</small>
               <small class='lvl_txt'>familiar</small>
-              
+
             {% elsif item.level == 2 %}
               <small class='lvl'>(2/4)</small>
               <small class='lvl_txt'>able</small>
-              
+
             {% elsif item.level == 3 %}
               <small class='lvl'>(3/4)</small>
               <small class='lvl_txt'>confident</small>
-              
+
             {% elsif item.level == 4 %}
               <small class='lvl'>(4/4)</small>
               <small class='lvl_txt'>skilled</small>
-              
+
             {% endif %}
           </td>
-
         </tr>
+
       {% endfor %}
     </tbody>
 

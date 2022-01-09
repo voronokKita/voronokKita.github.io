@@ -1,22 +1,46 @@
 ---
-layout: default
-title: My Stats
 ---
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=divice-width, initial-scale=1.0'>
+    <title>{{ site.title }}</title>
+    <link rel='stylesheet' href="/assets/css/styles.css">
+    <link rel='shortcut icon' type='image/png' href="/assets/images/favicon.ico"/>
+    {% feed_meta %}
+    {% seo %}
+  </head>
 
-{% include /index/header.html %}
+  <body>
 
-{% for block in site.data.skills %}
-  <div class='stats_block'>
-    <div class='stats_bar'><h5 class='stats_h'>{{ block.name }}</h5></div>
-    <section class='stats_section'>
-      {% include /index/table.html %}
-    </section>
-  </div>
-{% endfor %}
+    <div id='index_content'>
+      {% include /index/hat.html %}
 
-<div class='stats_block'> 
-  <div class='stats_bar'><h5 class='stats_h'>character description</h5></div>
-  <section class='stats_section'>
-    {% include /index/description.html %}
-  </section>
-</div>
+      <main id='index_main'>
+
+        {% include /index/header.html %}
+
+        {% for block in site.data.skills %}
+          <div class='stats_block'>
+            <div class='stats_bar'><h5 class='stats_h'>{{ block.name }}</h5></div>
+            <section class='stats_section'>
+              {% include /index/table.html %}
+            </section>
+          </div>
+        {% endfor %}
+
+        <div class='stats_block'>
+          <div class='stats_bar'><h5 class='stats_h'>character description</h5></div>
+          <section class='stats_section'>
+            {% include /index/description.html %}
+          </section>
+        </div>
+
+      </main>
+
+      {% include /index/footer.html %}
+    </div>
+
+  </body>
+</html>

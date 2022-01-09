@@ -1,31 +1,33 @@
 <header id='index_header'>
+
   <figure id='index_photos'>
     <img src="/assets/images/photo_1.jpg" alt="my photo 1">
     <img src="/assets/images/photo_2.jpg" alt="my photo 2">
   </figure>
 
-  <div id='focus_block'>
+  <secrion id='focus_block'>
     <div id='focus_rectangle'>
       <figure id='focus_gearwheels'>
         <img src="/assets/images/gearwheels.gif" alt="gearwheels">
       </figure>
 
       <figure id='focus_text'>
-        <label id='focus_current'>Current focus:</label>
-        <label id='focus_h'>{{ site.data.status.focus }}</label>
+        <span id='focus_current'>Current focus:</span>
+        <span id='focus_h'>{{ site.data.status.focus }}</span>
       </figure>
     </div>
-    
-    <div id='focus_legend'>
-      <h3 id='focus_interests'>
-        <b class='h_leader'>Main Fields of Interest:</b> programming, linguistics, economics, psychology & behaviour fundamentals, <a href="{{ site.data.links.MAL }}">anime girls</a>
-      </h3>      
-      <h3 class='focus_specials'>
-        <b class='h_leader'>Specializations:</b> development, back-end, python
-      </h3>      
-      <h3 class='focus_specials'>
-        <b class='h_leader'>Guild:</b> {{ site.data.status.status }}
-      </h3>
-    </div> 
-  </div>
+
+    <ul id='focus_legend'>
+      <li class='focus_interests'>
+        <h3 class='h_leader'>Main Fields of Interest:</h3>&nbsp<span>programming, linguistics, economics, behaviour fundamentals, <a id='anime' href="{{ site.data.links.MAL }}">anime girls</a></span>
+      </li>
+      <li class='focus_interests'>
+        <h3 class='h_leader'>Specializations:</h3>&nbsp<span>development, back-end, python</span>
+      </li>
+      <li class='focus_interests'>
+        <h3 class='h_leader'>Guild:</h3>&nbsp<span>{{ site.data.status.status }}</span>
+      </li>
+    </ul>
+  </secrion>
+
 </header>

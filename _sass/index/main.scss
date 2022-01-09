@@ -6,13 +6,15 @@
   border-style: ridge;
   margin: 0px;
   padding: 0px;
-  
+
   color: $color_normal;
   font-family: 'Pelagiad', 'Times New Roman', serif;
-  font-size: large;
+  font-size: 16px;
   font-weight: normal;
-}
-html {width: 100%; height: 100%; background-color: $background_html;}
+} /* фоновое изображение */
+html, body {width: 100%; height: 100%; background-color: $background_html;}
+
+ul {list-style-type: none}
 
 a {color: $color_link; text-decoration: none;}
 a:hover, a:focus {color: $color_link_over}
@@ -22,29 +24,28 @@ a.answer {color: $color_answer;}
 a.answer:hover, a.answer:focus {color: $color_health}
 a.answer:active {color: $color_big_answer_pressed}
 
-.h_leader {font-size: larger; color: $color_header;} 
+.h_leader {font-size: 18px; color: $color_header;}
 
-#main_body {
+#index_content {
   display: flex;
   flex-flow: column nowrap;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
 
-  position: relative;  
+  position: relative;
   width: auto;
   height: auto;
   min-height: 100%;
   min-width: $body_min_width;
-  max-width: $body_max_width;  
+  max-width: $body_max_width;
   margin-left: auto;
   margin-right: auto;
   background-color: $background_main;
-
-  #index_main {
-    flex: 1 1 auto;
-    border: 3px solid $color_header;
-    border-style: none ridge none ridge;
-    padding: 10px;
-  }
+}
+#index_main {
+  flex: 1 1 auto;
+  border: 3px solid $color_header;
+  border-style: none ridge none ridge;
+  padding: 10px;
 }

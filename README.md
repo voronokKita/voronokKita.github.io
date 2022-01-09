@@ -1,4 +1,7 @@
 # https://voronokkita.github.io
 
-### My personal page in the Internet
+### My homepage page in the Internet
 > Github Pages: https://pages.github.com
+
+### My code, courses, examples and reminders
+> https://github.com/voronokKita/examples

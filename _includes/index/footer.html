@@ -1,20 +1,27 @@
 <footer id='default_footer'>
+
   <address id='contacts'>
-    <h6><a href="mailto:{{ site.data.links.MAIL }}">{{ site.data.links.MAIL }}</a></h6>
+    <ul>
+      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
 
-    <h6><span class='h_leader'>telegram:</span> <a href="{{ site.data.links.TG-WEB }}" target="_blank">@{{ site.data.links.TG }}</a></h6>
+      <li><span class='h_leader'>telegram:</span>
+        <a href="{{ site.data.links.telegram_link }}" target="_blank">@{{ site.data.links.telegram }}</a></li>
 
-    <h6><span class='h_leader'>discord:</span> <a href="{{ site.data.links.DIS-WEB }}" target="_blank">{{ site.data.links.DIS }}</a></h6>
+      <li><span class='h_leader'>discord:</span>
+        <a href="{{ site.data.links.discord_link }}" target="_blank">{{ site.data.links.discord }}</a></li>
 
-    <h6><a href="{{ site.data.links.GH }}">{{ site.data.links.GH }}</a></h6>    
+      <li><a href="{{ site.data.links.github }}">{{ site.data.links.github }}</a></li>
+    </ul>
   </address>
 
   <div id='impressions'>
     <p>GitHub is so awesome! By providing such cool services and handy tools. And as if that weren't enough, they allow me to host my small website! I'm just in love.</p>
+
     <figure id='powered_by'>
       <img class='octojekyll' src="/assets/images/github.png" alt="github.png">
       <img class='octojekyll' src="/assets/images/jekyll.png" alt="jekyll.png">
       <img class='octojekyll' src="/assets/images/octojekyll.png" alt="octojekyll.png">
     </figure>
   </div>
+
 </footer>

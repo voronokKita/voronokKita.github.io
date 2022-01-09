@@ -1,0 +1,20 @@
+#default_hat {
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: right;
+  align-items: flex-end;
+
+  border-left: 3px solid $color_header;
+  border-right: 3px solid $color_header;
+  border-bottom: 1px solid $color_header;
+  border-style: none ridge solid ridge;
+}
+#robots {
+  font-size: 1px;
+  display: none;
+}
+#tes_time {
+  padding: 1px 8px;
+  color: $color_disabled;
+  font-size: 14px;
+}

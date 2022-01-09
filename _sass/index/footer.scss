@@ -1,0 +1,13 @@
+#default_footer {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 0 1 auto;
+
+  padding: 9px;
+  border: 3px solid $color_header;
+  border-style: solid ridge ridge ridge;
+}
+#contacts {flex: 1 1 auto; font-style: normal;}
+#impressions {flex: 4 1 0;}
+#powered_by{text-align: center; padding-top: 2px;}
+img.octojekyll {height: 30px;}
