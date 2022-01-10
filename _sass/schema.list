@@ -21,8 +21,6 @@ id                    css
 #anime                header
 #speed                table
 #strongest            table
-#error_body           error404
-#error_pic            error404
 #error_block          error404
 #error_404            error404
 

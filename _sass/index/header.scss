@@ -1,7 +1,16 @@
 @import "variables";
 
-#index_header {display: flex; flex-flow: row wrap;}
+// container
+#index_header {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  margin-bottom: 8px;
+}
 
+// part A
 #index_photos {
   flex-grow: 0;
   flex-shrink: 0;
@@ -9,7 +18,6 @@
 
   font-size: 0;
   margin-right: 4px;
-  margin-bottom: 10px;
 }
 img[alt*="photo 1"], img[alt*="photo 2"] {
   width: $picture_width;
@@ -27,17 +35,18 @@ img[alt*="photo 2"] {
 @media (max-width: $second_picture_disappear) {img[alt*="photo 1"] {border-style: ridge;}}
 @media (max-width: $second_picture_disappear) {img[alt*="photo 2"] {display: none;}}
 
+// part B
 #focus_block {
   flex-grow: 1;
-  flex-shrink: 2;
-  flex-basis: 0;
-  margin-bottom: 10px;
+  flex-shrink: 1;
+  flex-basis: $focus_block_min_width;
 }
 #focus_rectangle {
   display: flex;
   flex-flow: row nowrap;
-
+  flex: 1 0 auto;
   max-width: $pictures_width;
+
   padding: 1px;
   border: 3px solid $color_normal;
 }
@@ -54,10 +63,7 @@ img[alt*="photo 2"] {
 img[alt*="gearwheels"] {width: $gearwheels_width; height: $gearwheels_height;}
 
 #focus_text {
-  display: flex;
-  flex-flow: column;
-  flex: 2 1 0;
-
+  flex: 1 2 auto;
   margin: 2px;
   padding: 4px 4px 4px 10px;
 
@@ -72,7 +78,7 @@ img[alt*="gearwheels"] {width: $gearwheels_width; height: $gearwheels_height;}
 #focus_h {display: flex; justify-content: center; line-height: 30px;}
 
 #focus_legend {
-  flex-flow: column nowrap;
+  flex: 1 1 auto;
   margin-top: 8px;
   margin-left: 8px;
   margin-right: 8px;

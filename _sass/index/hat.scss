@@ -1,7 +1,9 @@
 #default_hat {
   display: flex;
-  flex: 0 1 auto;
-  justify-content: right;
+  flex-flow: column;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
   align-items: flex-end;
 
   border-left: 3px solid $color_header;

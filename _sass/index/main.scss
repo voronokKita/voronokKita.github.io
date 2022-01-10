@@ -12,8 +12,13 @@
   font-size: 16px;
   font-weight: 100;
   line-height: 20px;
-} /* фоновое изображение */
-html, body {width: 100%; height: max-content; background-color: $background_html;}
+}
+html, body {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  background-color: $background_html;
+}
 
 #index_body {
   background-image: url("/assets/images/index/marshes.jpg");
@@ -55,7 +60,6 @@ a.answer:active {color: $color_big_answer_pressed}
   background-color: $background_main;
 }
 #index_main {
-  flex: 1 1 auto;
   border: 3px solid $color_header;
   border-style: none ridge none ridge;
   padding: 10px;
