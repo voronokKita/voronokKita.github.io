@@ -1,5 +1,6 @@
 id                    css
 
+#index_body           main
 #index_content        main
 #index_main           main
 #default_hat          hat
