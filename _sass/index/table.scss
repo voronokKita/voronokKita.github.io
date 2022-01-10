@@ -5,7 +5,7 @@
 .stats_bar {
   border: 2px solid $color_normal;
   background-color: $color_normal;
-  background-image: url("/assets/images/bar.jpg");
+  background-image: url("/assets/images/index/bar.jpg");
   background-size: cover;
   background-repeat: round;
   background-clip: padding-box;
@@ -44,7 +44,7 @@ th.h_leader {font-size: 16px;}
 
 #speed {width: 26px;}
 #strongest {
-  background-image: url("/assets/images/strongest.png");
+  background-image: url("/assets/images/index/strongest.png");
   background-position: center bottom 7px;
   background-repeat: no-repeat;
   padding: 0 5px;

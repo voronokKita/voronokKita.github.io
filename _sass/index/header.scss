@@ -63,20 +63,19 @@ img[alt*="gearwheels"] {width: $gearwheels_width; height: $gearwheels_height;}
 
   border: 3px solid $color_header;
   background-color: $color_normal;
-  background-image: url("/assets/images/focus.jpg");
+  background-image: url("/assets/images/index/focus.jpg");
   background-size: cover;
   background-repeat: round;
 }
 #focus_current, #focus_h {color: $color_big_answer_pressed; font-size: 22px;}
 #focus_current {white-space: nowrap;}
-#focus_h {display: flex; justify-content: center;}
+#focus_h {display: flex; justify-content: center; line-height: 30px;}
 
 #focus_legend {
   flex-flow: column nowrap;
   margin-top: 8px;
   margin-left: 8px;
   margin-right: 8px;
-
 }
 .focus_interests {
   padding: 2px 0 6px 0;
