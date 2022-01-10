@@ -23,7 +23,7 @@
 
         {% for block in site.data.skills %}
           <div class='stats_block'>
-            <div class='stats_bar'><h5 class='stats_h'>{{ block.name }}</h5></div>
+            <div class='stats_bar'><h6 class='stats_h'>{{ block.name }}</h6></div>
             <section class='stats_section'>
               {% include /index/table.html %}
             </section>
@@ -31,7 +31,7 @@
         {% endfor %}
 
         <div class='stats_block'>
-          <div class='stats_bar'><h5 class='stats_h'>character description</h5></div>
+          <div class='stats_bar'><h6 class='stats_h'>character description</h6></div>
           <section class='stats_section'>
             {% include /index/description.html %}
           </section>
