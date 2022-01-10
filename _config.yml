@@ -13,7 +13,7 @@ title: Kita's Homepage
 email: kitavoronok@gmail.com
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Kita Voronok personal homepage in the Internet.
+  Kita Voronok's personal homepage in the Internet. Шаипов Никита Геннадьевич, домашняя страница в Интернете.
 baseurl: "" # the subpath of your site, e.g. /blog
 
 domain: voronokkita.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com

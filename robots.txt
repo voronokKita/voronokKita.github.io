@@ -1,3 +1,5 @@
 User-agent: *
 Disallow: /404
+User-agent: *
+Disallow: /googled5ea2bbc1674e1f9.html
 Sitemap: https://voronokkita.github.io/sitemap.xml
