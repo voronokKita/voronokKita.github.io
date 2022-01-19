@@ -1,6 +1,6 @@
-# https://purl.archive.org/kita
+# https://voronokkita.github.io/
 
-### My homepage in the Internet
+### My homepage in the Web
 > Github Pages: https://pages.github.com
 
 ### My code, courses, examples and reminders
