@@ -1,9 +1,9 @@
-_site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-/__pycache__
-/.vscode
+__pycache__
+.vscode
 vendor
+/.directory
 /_site
 /_result
