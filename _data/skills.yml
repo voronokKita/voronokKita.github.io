@@ -47,7 +47,7 @@
           level: 2
         - name: OOP
           level: 2
-        - name: Computer networks
+        - name: Computer networking
           level: 2
         - name: API
           level: 2
@@ -62,6 +62,7 @@
         - name: JSON
         - name: YAML
         - name: Jinja
+        - name: Flexbox
 
 - name: other stats
   category:
