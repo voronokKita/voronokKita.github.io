@@ -22,12 +22,15 @@ html, body {
 
 #index_body {
   background-image: url("/assets/images/index/marshes.jpg");
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-origin: border-box;
   background-clip: border-box;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 ul {list-style-type: none}
