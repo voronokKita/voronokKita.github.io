@@ -63,13 +63,13 @@
   category:
     - name: Soft Skills
       items:
-        - name: Self Learning
+        - name: Self learning
           level: 4
-        - name: Digital Literacy
+        - name: Digital literacy
           level: 4
         - name: Communication
           level: 1
-        - name: Public Speaking
+        - name: Public speaking
           level: 1
 
     - name: Permanent Effects
