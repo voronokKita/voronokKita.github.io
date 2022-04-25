@@ -30,12 +30,6 @@
           level: 3
         - name: C
           level: 2
-        - name: C++
-          level: 1
-        - name: C#
-          level: 1
-        - name: PHP
-          level: 1
         - name: JavaScript
           level: 1
 
@@ -46,19 +40,20 @@
         - name: Git
           level: 2
         - name: OOP
-          level: 2
+          level: 3
         - name: Computer networking
           level: 2
         - name: API
           level: 2
         - name: Flask
-          level: 2
+          level: 3
         - name: Django
           level: 1
 
     - name: Minor Tools
       items:
-        - name: Blind Typing
+        - name: Blind typing
+        - name: Regular expressions
         - name: JSON
         - name: YAML
         - name: Jinja
