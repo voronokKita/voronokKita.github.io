@@ -38,7 +38,7 @@
         - name: Linux
           level: 3
         - name: Git
-          level: 2
+          level: 3
         - name: OOP
           level: 3
         - name: Computer networking
