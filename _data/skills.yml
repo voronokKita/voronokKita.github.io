@@ -59,6 +59,7 @@
         - name: Flexbox
         - name: SQLAlchemy
         - name: pyTelegramBotAPI
+        - name: REST API
 
 - name: other stats
   category:
