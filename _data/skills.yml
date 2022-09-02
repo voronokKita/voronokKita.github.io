@@ -43,8 +43,6 @@
           level: 2
         - name: Computer networking
           level: 2
-        - name: API
-          level: 2
         - name: Flask
           level: 3
         - name: Django
