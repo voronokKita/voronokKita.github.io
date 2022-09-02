@@ -26,7 +26,7 @@
           level: 3
         - name: HTML/CSS
           level: 3
-        - name: SQL
+        - name: SQLite
           level: 3
         - name: C
           level: 2
@@ -40,7 +40,7 @@
         - name: Git
           level: 3
         - name: OOP
-          level: 3
+          level: 2
         - name: Computer networking
           level: 2
         - name: API
@@ -48,16 +48,17 @@
         - name: Flask
           level: 3
         - name: Django
-          level: 1
+          level: 4
 
-    - name: Minor Tools
+    - name: Familiar Minor Tools
       items:
-        - name: Blind typing
         - name: Regular expressions
         - name: JSON
-        - name: YAML
         - name: Jinja
+        - name: Bootstrap
         - name: Flexbox
+        - name: SQLAlchemy
+        - name: pyTelegramBotAPI
 
 - name: other stats
   category:
